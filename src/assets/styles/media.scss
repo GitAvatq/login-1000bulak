@@ -1,0 +1,118 @@
+@media screen and (max-width: 1024px) {
+  #login {
+    .login {
+      &--left {
+        gap: 60px;
+        &__logo {
+          width: 200px;
+        }
+        &__hero {
+          width: 500px;
+        }
+      }
+      &--right {
+        &__way-in {
+          width: 90px;
+        }
+        &__content {
+          gap: 10px;
+          margin-bottom: 30px;
+          &__line {
+            width: 300px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+        &__form {
+          gap: 30px;
+          &__content {
+            gap: 20px;
+            &__input {
+              label {
+                font-size: 14px;
+                margin-bottom: 3px;
+              }
+              &__area {
+                width: 340px;
+                padding: 10px 8px 10px 10px;
+
+                &--large-dots {
+                  top: 107px;
+                }
+              }
+              &__show-icon {
+                right: 15px;
+                bottom: 47px;
+              }
+            }
+          }
+          button {
+            padding: 15px 150px 15px 150px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #login {
+    .login {
+      &--left {
+        &__logo {
+          width: 150px;
+        }
+        &__hero {
+          width: 400px;
+        }
+      }
+      &--right {
+        &__way-in {
+          width: 60px;
+        }
+        &__content {
+          gap: 10px;
+          &__line {
+            width: 200px;
+          }
+          margin-bottom: 30px;
+          p {
+            font-size: 15px;
+          }
+        }
+        &__form {
+          gap: 30px;
+          &__content {
+            gap: 20px;
+            &__input {
+              label {
+                font-size: 14px;
+                margin-bottom: 3px;
+              }
+              &__area {
+                width: 300px;
+                padding: 7px 8px 7px 10px;
+
+                &--large-dots {
+                  top: 97px;
+                }
+              }
+              &__show-icon {
+                right: 12px;
+                bottom: 42px;
+              }
+
+              &__forgot-btn {
+                font-size: 12px;
+              }
+            }
+          }
+          button {
+            padding: 15px 130px 15px 130px;
+          }
+        }
+      }
+    }
+  }
+}
