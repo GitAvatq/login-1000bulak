@@ -1,4 +1,4 @@
-# Logs
+# Логи
 logs
 *.log
 npm-debug.log*
@@ -12,7 +12,10 @@ dist
 dist-ssr
 *.local
 
-# Editor directories and files
+# Исполняемые файлы Windows
+*.exe
+
+# Каталоги и файлы редакторов
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -21,4 +24,4 @@ dist-ssr
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.sw
